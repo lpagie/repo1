@@ -8,7 +8,7 @@ print("repo_dir = "+str(REPO_DIR))
 
 
 module other_workflow:
-  snakefile: github("lpagie/repo2", path="snakefile_2.smk", commit="f94c905a95dda6a20c5e45dfc5f5180e089f20e6")
+  snakefile: github("lpagie/repo2", path="snakefile_2.smk", commit="61f60f7")
   config: config
 
 use rule * from other_workflow as wf2_*
